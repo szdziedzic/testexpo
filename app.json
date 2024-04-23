@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "test-temp",
-    "slug": "test-temp",
+    "name": "testexpo",
+    "slug": "testexpo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,27 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.szymononboarding2org.testexpo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.szymononboarding2org.testexpo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "39c2621f-cbcd-4b9a-8251-63fbf18d9a8c"
+      }
+    },
+    "owner": "szymononboarding2-org",
+    "updates": {
+      "url": "https://staging-u.expo.dev/39c2621f-cbcd-4b9a-8251-63fbf18d9a8c"
     }
   }
 }
